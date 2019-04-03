@@ -1,5 +1,5 @@
 import axios from 'axios';
-import { Key } from "./ApiKey";
+const Key = ""; //Add Key here
 export default axios.create({
     baseURL: 'https://api.unsplash.com',
     headers: {
